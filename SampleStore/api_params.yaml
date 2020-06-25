@@ -1,8 +1,8 @@
 environments:
-  - name: apim_dev
+  - name: dev
     endpoints:
       production:
-        url: http://localhost:9443/samplestore
+        url: http://dev.wso2.com:9090/samplestore
         config:
           retryTimeOut: $RETRY
       sandbox:
