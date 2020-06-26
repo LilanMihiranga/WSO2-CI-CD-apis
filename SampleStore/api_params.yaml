@@ -12,7 +12,7 @@ environments:
   - name: prod
     endpoints:
       production:
-        url: http://prod.wso2.com:9090/samplestore
+        url: http://localhost:9444/samplestore
         config:
           retryTimeOut: $RETRY      
       sandbox:
